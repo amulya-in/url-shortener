@@ -8,7 +8,6 @@ module Api
 			render json: @urls
 		end	
 
-		skip_before_action
 		def create
 			@user.urls.create(url_params) 
 			render json: @user.urls
