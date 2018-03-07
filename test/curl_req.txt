@@ -1,0 +1,3 @@
+curl -H "Content-Type: application/json" -H "Authorization: Token token=D3XvxA0Fq2W8AqZASXyfwgqq" http://localhost:3000/api/urls/7
+
+curl -H "Content-Type: application/json" -H "Authorization: Token token=D3XvxA0Fq2W8AqZASXyfwgqq" POST -d '{"original":"http://tenderlovemaking.com/"}' http://localhost:3000/api/urls
