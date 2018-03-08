@@ -23,11 +23,11 @@ curl -H "Content-Type: application/json" -H "Authorization: Token token=your-api
 curl -H "Content-Type: application/json" -H "Authorization: Token token=your-api-key" POST -d '{"original":"http://tenderlovemaking.com/"}' http://localhost:3000/api/urls
 
 # Destroy a shortened URL
-curl -H "Authorization: Token token=your-api-key" DELETE http://localhost:3000/api/urls/:id
+curl -H "Authorization: Token token=your-api-key" -X "DELETE" http://localhost:3000/api/urls/:id
 ```
 
 ### Web Interface
-- Devised intentionally not used for authentication 
+- 'Devise' intentionally not used for authentication 
 - URLS can be shortened via web interface too
 
 
