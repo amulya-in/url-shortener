@@ -4,9 +4,9 @@
 <p><%= link_to 'Shorten Urls', new_user_url_path(@user) %></p>
 <h2>Your URLS</h2>
 <ul>
-	<% @user.urls.each do |url| %>
-		<li><%= url.original + ' => ' + short_url(url.key) %></li>
-	<% end %>
+  <% @user.urls.each do |url| %>
+    <li><%= url.original + ' => ' + short_url(url.key) %></li>
+  <% end %>
 </ul>
 <p><%= link_to 'Logout', session_path, method: :delete %></p>
-</div>			
+</div>      

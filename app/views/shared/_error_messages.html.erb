@@ -1,9 +1,9 @@
 <% if @user.errors.any? %>
 <div>
-	<ul>
-	<% @user.errors.full_messages do |e| %>
-		<li><%= e %></li>
-	<% end %>
-	</ul>
+  <ul>
+  <% @user.errors.full_messages do |e| %>
+    <li><%= e %></li>
+  <% end %>
+  </ul>
 </div>
 <% end %>
